@@ -1,0 +1,5 @@
+__pycache__/
+SCBAM/
+.ipynb_checkpoints/
+Temp_Book/
+*.rar

@@ -1,8 +1,9 @@
 # secret
-https://tupleblog.github.io/posts/
-https://mc.ai/cryptocurrency-prediction-with-lstm/
-https://www.analyticsvidhya.com/blog/2018/10/predicting-stock-price-machine-learningnd-deep-learning-techniques-python/
-http://philipperemy.github.io/anomaly-detection/
+1) https://tupleblog.github.io/posts/
+2) https://mc.ai/cryptocurrency-prediction-with-lstm/
+3) https://www.analyticsvidhya.com/blog/2018/10/predicting-stock-price-machine-learningnd-deep-learning-techniques-python/
+4) http://philipperemy.github.io/anomaly-detection/
+5) https://github.com/JEddy92/TimeSeries_Seq2Seq/blob/master/notebooks/TS_Seq2Seq_Intro.ipynb 
 # Project Hold=Nikkei255, and long USD/JPY  
 
 

@@ -7,6 +7,7 @@
 6) http://rickyhan.com/jekyll/update/2017/09/14/autoencoders.html
 7) https://machinelearningmastery.com/keras-functional-api-deep-learning/ (Intro to Keras Functional API)
 8) http://neuralnetworksanddeeplearning.com/chap1.html (Intro to Deep Learning Online Book)
+9) https://towardsdatascience.com/pca-vs-autoencoders-1ba08362f450 (Autoencorder vs PCA application test in iris data)
 # Project Hold=Nikkei255, and long USD/JPY  
 
 

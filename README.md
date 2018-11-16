@@ -8,6 +8,7 @@
 7) https://machinelearningmastery.com/keras-functional-api-deep-learning/ (Intro to Keras Functional API)
 8) http://neuralnetworksanddeeplearning.com/chap1.html (Intro to Deep Learning Online Book)
 9) https://towardsdatascience.com/pca-vs-autoencoders-1ba08362f450 (Autoencorder vs PCA application test in iris data)
+10) https://github.com/RubensZimbres/Repo-2017/blob/master/Time%20Series%20Neural%20Networks (Time Series Neural Networks)
 # Project Hold=Nikkei255, and long USD/JPY  
 
 

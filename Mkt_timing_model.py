@@ -43,9 +43,10 @@ def wavelet_processing(df, year_train, last_col, lookback):
     trained = pd.DataFrame(train_data, index=None)
 
     pre_en_train = pd.DataFrame(trained[0:train_data_range], index=None)
-#    pre_en_train = pre_en_train.shift(-1)
+    pre_en_train = pre_en_train.iloc[:,:].shift(-1)
+    pre_en_train = pre_en_train.drop(pre_en_train.index[-1])
     pre_en_train = pre_en_train.fillna(0)
-    pre_en_test = pd.DataFrame(trained[train_data_range+1:train_data_range+test_data_range], index=None)
+    pre_en_test = pd.DataFrame(trained[train_data_range+1:train_data_range+test_data_range-1], index=None)
     pre_en_test = pre_en_test.fillna(0)
     
 #    for i in range(len(df)):
@@ -53,7 +54,7 @@ def wavelet_processing(df, year_train, last_col, lookback):
 #        label.append(y)
 #    log_re = np.where(np.diff(np.log(df.iloc[:,0])) > 0, 1, -1)
     log_re = np.diff(np.log(df.iloc[:, 0]))
-    label_train = pd.DataFrame(log_re[0:train_data_range], index=None)
+    label_train = pd.DataFrame(log_re[1:train_data_range], index=None)
     label_test = pd.DataFrame(log_re[train_data_range+1:train_data_range+test_data_range], index=None)
     return pre_en_train, pre_en_test, label_train, label_test
     
@@ -129,9 +130,15 @@ def train_lstm_model(input_shape, train_data, train_label_data,
     test_y = np.array(test_label_data)
     
     # Train model
-    history = model.fit(train_x, train_y, epochs=10, shuffle=False)
+    history = model.fit(train_x, train_y, epochs=50, shuffle=False,
+                        validation_split=0.3)
     
+    plt.figure(figsize=(15, 8))
     plt.plot(history.history['loss'])
+    plt.plot(history.history['val_loss'])
+    plt.xlabel('Number of Epochs')
+    plt.ylabel('Loss')
+    plt.legend(['Train', 'Test'])
     print('Model Performance: ',model.evaluate(test_x, test_y))
     
     # Predict 
@@ -142,18 +149,10 @@ def train_lstm_model(input_shape, train_data, train_label_data,
         # Predict regression
         prediction = (model.predict(np.reshape(test_x[i], (1, 1, input_shape))))
         prediction_data.append(np.reshape(prediction, (1,)))
-        #level = np.exp(np.reshape(prediction, (1,))) * 
-#    plt.plot(prediction_corrected)
-    
-    plt.figure()
-    plt.plot(prediction_data)
-    #predict_class = np.where(np.array(prediction_data) > 0.5, 1, 0) 
-    
+         
     return model, prediction_data
     
-#TODO: 4) Alternative Model (Multivariate Seq-to-Seq Encode Decode)
 
-    
 if __name__ == '__main__':
     raw_df = get_data(r'D:\Project files\Data\Mkt timing.xlsx', 'Level_lag', 'A:K')
     
@@ -164,11 +163,23 @@ if __name__ == '__main__':
 #    raw_df = raw_df.join(macd)
 #    df = raw_df.dropna(inplace=True)
     
-    #for rolling sample 
-    #raw_df[(raw_df.index.year >=2010) & (raw_df.index.year <=2012)]
+    #for rolling sample train year(-1) 
+    rolling_predict = []
+    
+#    for i in list(range(2000, 2018)):
+#        st_year = i 
+#        end_year = i + 5
+#        df = raw_df[(raw_df.index.year >=st_year) & (raw_df.index.year <=end_year)]
+#        pre_en_train, pre_en_test, label_train, label_test = wavelet_processing(df, end_year-1, 10 , 2)
+#        lstm_test, prediction = train_lstm_model(10, pre_en_train, label_train, pre_en_test, label_test)
+#        rolling_predict.append(np.array(prediction))
+#    
+#    df = raw_df[(raw_df.index.year >=2001) & (raw_df.index.year <=2012)]
+    
+# ===================================== Test Model ==============================================
     
     # Denoise data and manipulate data
-    pre_en_train, pre_en_test, label_train, label_test = wavelet_processing(raw_df, 2010, 10 , 2)
+    pre_en_train, pre_en_test, label_train, label_test = wavelet_processing(df, 2011, 10 , 2)
     
 #    print('-'*10, "Autoencoder Process", '-'*10)
 #    
@@ -184,18 +195,24 @@ if __name__ == '__main__':
 #                                     encoded2_shape=20,
 #                                     decoded1_shape=20,
 #                                     decoded2_shape=30)
+#    
+#    print('-'*20, "LSTM Process", '-'*20)
     
-    print('-'*10, "LSTM Process", '-'*10)
-    
-    # Train LSTM model 
+    #Train LSTM model 
     lstm_test, prediction = train_lstm_model(10, pre_en_train, label_train, pre_en_test, label_test)
     
-#    plt.subplot(211)
-    plt.plot(pd.DataFrame(prediction), label='LSTM Predict')
-#    plt.gca().set_title('Predict')
-#    plt.subplot(212)
-    plt.plot(label_test, label='Diff log ACWI')
-#    plt.gca().set_title('ACWI diff log')
     
-    #df_train = raw_df[raw_df.index.year <= 2010]
-    #df_test = raw_df[raw_df.index.year == 2011]
+#    plt.figure(figsize=(15,8))
+##    plt.subplot(211)
+#    plt.plot(pd.DataFrame(prediction), label='LSTM Predict')
+#    plt.gca().set_title('LSTM Forecast')
+##    plt.subplot(212)
+#    plt.plot(label_test, label='Diff log ACWI')
+##    plt.gca().set_title('ACWI diff log')
+#    plt.legend(['LSTM Predict', 'ACWI diff log'])
+    
+# =================================== Plot ACWI Prediction ====================================
+#    level = pd.read_excel(r'D:\Project files\FXProjects\Mkt_timing_result_5y.xlsx', sheet_name='Sheet2', index_col='Dates',
+#                       usecols='A:E')
+    
+    

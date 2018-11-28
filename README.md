@@ -11,7 +11,7 @@
 10) https://github.com/RubensZimbres/Repo-2017/blob/master/Time%20Series%20Neural%20Networks (Time Series Neural Networks)
 11) https://web.stanford.edu/class/cs20si/2017/ (CS 20SI: Tensorflow for Deep Learning Research, Standford University)
 12) https://www.dlology.com/blog/how-to-use-keras-timeseriesgenerator-for-time-series-data/ (Keras Timseriegenerator)
-
+13) http://en.diveintodeeplearning.org/index.html (Dive into deep learning book reference)
 # Project Hold=Nikkei255, and long USD/JPY  
 
 

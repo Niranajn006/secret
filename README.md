@@ -12,7 +12,8 @@
 11) https://web.stanford.edu/class/cs20si/2017/ (CS 20SI: Tensorflow for Deep Learning Research, Standford University)
 12) https://www.dlology.com/blog/how-to-use-keras-timeseriesgenerator-for-time-series-data/ (Keras Timseriegenerator)
 13) http://en.diveintodeeplearning.org/index.html (Dive into deep learning book reference)
-14 ) https://iamtrask.github.io/2015/11/15/anyone-can-code-lstm/ (Anyone can Learn to code an LSTM-RNN)
+14) https://iamtrask.github.io/2015/11/15/anyone-can-code-lstm/ (Anyone can Learn to code an LSTM-RNN)
+15) http://math.mit.edu/~gs/linearalgebra/ (Linear algebra book)
 # Project Hold=Nikkei255, and long USD/JPY  
 
 

@@ -14,6 +14,7 @@
 13) http://en.diveintodeeplearning.org/index.html (Dive into deep learning book reference)
 14) https://iamtrask.github.io/2015/11/15/anyone-can-code-lstm/ (Anyone can Learn to code an LSTM-RNN)
 15) http://math.mit.edu/~gs/linearalgebra/ (Linear algebra book)
+16) https://opringle.github.io/2018/01/05/deep_learning_multivariate_ts.html (Deep Learning for Multivariate Time Series Forecasting using Apache MXNet)
 # Project Hold=Nikkei255, and long USD/JPY  
 
 

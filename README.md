@@ -18,6 +18,10 @@
 17) https://imatge-upc.github.io/skiprnn-2017-telecombcn/ (Skip RNN: Skipping State Updates in Recurrent Neural Networks)
 18) http://adventuresinmachinelearning.com/pytorch-tutorial-deep-learning/ (Pytorch deep learning tut)
 19) https://www.hardikp.com/2017/10/19/intraday-stock-price-prediction-2/#joint-many-task-using-lstm (Pytorch Intraday Stock Price Predict)
+20) https://fairyonice.github.io/Stateful-LSTM-model-training-in-Keras.html (Stateful and Stateless LSTM)
+21) https://blog.goodaudience.com/introduction-to-1d-convolutional-neural-networks-in-keras-for-time-sequences-3a7ff801a2cf (Intro to Convolutoin 1D
+22) https://www.heatonresearch.com/2017/07/22/keras-getting-started.html (Early Stoping Network prevent overfit)
+
 # Project Hold=Nikkei255, and long USD/JPY  
 
 

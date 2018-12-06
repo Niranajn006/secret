@@ -17,6 +17,7 @@
 16) https://opringle.github.io/2018/01/05/deep_learning_multivariate_ts.html (Deep Learning for Multivariate Time Series Forecasting using Apache MXNet)
 17) https://imatge-upc.github.io/skiprnn-2017-telecombcn/ (Skip RNN: Skipping State Updates in Recurrent Neural Networks)
 18) http://adventuresinmachinelearning.com/pytorch-tutorial-deep-learning/ (Pytorch deep learning tut)
+19) https://www.hardikp.com/2017/10/19/intraday-stock-price-prediction-2/#joint-many-task-using-lstm (Pytorch Intraday Stock Price Predict)
 # Project Hold=Nikkei255, and long USD/JPY  
 
 

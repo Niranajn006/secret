@@ -21,6 +21,7 @@
 20) https://fairyonice.github.io/Stateful-LSTM-model-training-in-Keras.html (Stateful and Stateless LSTM)
 21) https://blog.goodaudience.com/introduction-to-1d-convolutional-neural-networks-in-keras-for-time-sequences-3a7ff801a2cf (Intro to Convolutoin 1D
 22) https://www.heatonresearch.com/2017/07/22/keras-getting-started.html (Early Stoping Network prevent overfit)
+23) http://maxpumperla.com/hyperas/ (Hyperparameter tuning)
 
 # Project Hold=Nikkei255, and long USD/JPY  
 

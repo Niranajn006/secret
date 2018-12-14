@@ -22,6 +22,7 @@
 21) https://blog.goodaudience.com/introduction-to-1d-convolutional-neural-networks-in-keras-for-time-sequences-3a7ff801a2cf (Intro to Convolutoin 1D
 22) https://www.heatonresearch.com/2017/07/22/keras-getting-started.html (Early Stoping Network prevent overfit)
 23) http://maxpumperla.com/hyperas/ (Hyperparameter tuning)
+24) https://medium.com/@alexrachnog/neural-networks-for-algorithmic-trading-part-one-simple-time-series-forecasting-f992daa1045a (Neural networks for algorithmic trading. Simple time series forecasting)
 
 # Project Hold=Nikkei255, and long USD/JPY  
 

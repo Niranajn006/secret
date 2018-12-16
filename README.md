@@ -23,6 +23,7 @@
 22) https://www.heatonresearch.com/2017/07/22/keras-getting-started.html (Early Stoping Network prevent overfit)
 23) http://maxpumperla.com/hyperas/ (Hyperparameter tuning)
 24) https://medium.com/@alexrachnog/neural-networks-for-algorithmic-trading-part-one-simple-time-series-forecasting-f992daa1045a (Neural networks for algorithmic trading. Simple time series forecasting)
+25) https://blog.esciencecenter.nl/mcfly-time-series-classification-made-easy-e47de8d29838 (MCFly Deep learning classification)
 
 # Project Hold=Nikkei255, and long USD/JPY  
 

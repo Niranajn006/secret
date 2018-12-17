@@ -24,6 +24,8 @@
 23) http://maxpumperla.com/hyperas/ (Hyperparameter tuning)
 24) https://medium.com/@alexrachnog/neural-networks-for-algorithmic-trading-part-one-simple-time-series-forecasting-f992daa1045a (Neural networks for algorithmic trading. Simple time series forecasting)
 25) https://blog.esciencecenter.nl/mcfly-time-series-classification-made-easy-e47de8d29838 (MCFly Deep learning classification)
+26) https://stackoverflow.com/questions/46901371/how-to-deal-with-multi-step-time-series-forecasting-in-multivariate-lstm-in-kera (How to deal with multi step LSTM)
+
 
 # Project Hold=Nikkei255, and long USD/JPY  
 

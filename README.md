@@ -25,7 +25,7 @@
 24) https://medium.com/@alexrachnog/neural-networks-for-algorithmic-trading-part-one-simple-time-series-forecasting-f992daa1045a (Neural networks for algorithmic trading. Simple time series forecasting)
 25) https://blog.esciencecenter.nl/mcfly-time-series-classification-made-easy-e47de8d29838 (MCFly Deep learning classification)
 26) https://stackoverflow.com/questions/46901371/how-to-deal-with-multi-step-time-series-forecasting-in-multivariate-lstm-in-kera (How to deal with multi step LSTM)
-
+27) https://towardsdatascience.com/illustrated-guide-to-lstms-and-gru-s-a-step-by-step-explanation-44e9eb85bf21 (Animate Explain how LSTM work)
 
 # Project Hold=Nikkei255, and long USD/JPY  
 

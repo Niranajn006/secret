@@ -26,7 +26,7 @@
 25) https://blog.esciencecenter.nl/mcfly-time-series-classification-made-easy-e47de8d29838 (MCFly Deep learning classification)
 26) https://stackoverflow.com/questions/46901371/how-to-deal-with-multi-step-time-series-forecasting-in-multivariate-lstm-in-kera (How to deal with multi step LSTM)
 27) https://towardsdatascience.com/illustrated-guide-to-lstms-and-gru-s-a-step-by-step-explanation-44e9eb85bf21 (Animate Explain how LSTM work)
-
+28) https://fairyonice.github.io/Understand-Keras's-RNN-behind-the-scenes-with-a-sin-wave-example.html (State deep learning)
 # Project Hold=Nikkei255, and long USD/JPY  
 
 

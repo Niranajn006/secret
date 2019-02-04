@@ -28,6 +28,7 @@
 27) https://towardsdatascience.com/illustrated-guide-to-lstms-and-gru-s-a-step-by-step-explanation-44e9eb85bf21 (Animate Explain how LSTM work)
 28) https://fairyonice.github.io/Understand-Keras's-RNN-behind-the-scenes-with-a-sin-wave-example.html (State deep learning)
 29) https://thaikeras.com/ (Keras Blog Thai)
+30) http://www.datasciencecourse.org/notes/relational_data/
 # Project Hold=Nikkei255, and long USD/JPY  
 
 

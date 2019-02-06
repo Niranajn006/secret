@@ -29,6 +29,7 @@
 28) https://fairyonice.github.io/Understand-Keras's-RNN-behind-the-scenes-with-a-sin-wave-example.html (State deep learning)
 29) https://thaikeras.com/ (Keras Blog Thai)
 30) http://www.datasciencecourse.org/notes/relational_data/
+31) http://jonathansoma.com/lede/foundations/classes/friday%20sessions/advanced-scraping-form-submissions-completed/ (Selenium Python)
 # Project Hold=Nikkei255, and long USD/JPY  
 
 

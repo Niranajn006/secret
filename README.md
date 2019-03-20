@@ -30,6 +30,7 @@
 29) https://thaikeras.com/ (Keras Blog Thai)
 30) http://www.datasciencecourse.org/notes/relational_data/
 31) http://jonathansoma.com/lede/foundations/classes/friday%20sessions/advanced-scraping-form-submissions-completed/ (Selenium Python)
+32) https://kdboller.github.io/2017/07/09/scaling-analytical-insights-with-python.html (Scaling Analytical Insights with Python)
 # Project Hold=Nikkei255, and long USD/JPY  
 
 
